@@ -43,3 +43,8 @@ footer (optional)
 ### Footer
 Breaking Point 가 있을 때
 특정 이슈에 대한 해결 작업일 때
+
+## git commit --amend
+### 커밋 메시지 변경
+
+```git commit --amend```
