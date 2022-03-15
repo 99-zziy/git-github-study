@@ -15,7 +15,7 @@
 <img width="1086" alt="스크린샷 2022-03-15 오후 9 17 01" src="https://user-images.githubusercontent.com/62633444/158375941-94fa5fe5-5804-4102-8769-4f1b284d5cb9.png">
 
 
-기존의 SVN은 소스 관리를 위한 중앙 서버를 두었다.
+기존의 SVN은 소스 관리를 위한 중앙 서버를 두었다.  
 하지만 Git은 저장소에 push하고 pull를 하면서 다른사람들과 저장소를 공유하게 되는 방식이다. 
 
 참고(https://antilog.tistory.com/61)
@@ -59,3 +59,12 @@ git checkout HEAD^
 ex) git checkout HEAD^^^, git checkout HEAD~5  
 
 **기존 브랜치로 돌아오기: git switch (브랜치명)**
+
+# fetch와 pull의 차이
+
+#### fetch: 원격 저장소의 최신 커밋을 로컬로 가져오기만 함 
+#### pull: 원격 저장소의 최신 커밋을 로컬로 가져와 merge 또는 rebase
+
+### fetch한 내역 적용 전 살펴보기  
+```git fetch```한 후에 ```git checkout origin/main```으로 확인해보기  
+```git pull```로 적용
