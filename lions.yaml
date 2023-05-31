@@ -8,6 +8,8 @@ members:
   - Thomas
   - Karen
   - Margaret
+  - a
+  - b
 
 git tag (태그명) (커밋 해시) -m (메시지)
 5c6c95dda2868e0ea3dd4b9fb34fb70e6cfb73bd
